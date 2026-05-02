@@ -1,0 +1,30 @@
+<view class="detail-container" wx:if="{{challenge}}">
+
+  <view class="detail-header">
+    <text class="icon">{{challenge.icon}}</text>
+    <text class="title">{{challenge.title}}</text>
+  </view>
+
+  <view class="description">
+    {{challenge.description}}
+  </view>
+
+  <video 
+    class="detail-video"
+    src="{{challenge.video}}"
+    controls="true"
+    object-fit="cover"
+  ></video>
+
+  <button 
+    class="complete-btn"
+    wx:if="{{!completed}}"
+    bindtap="markComplete">
+    ✅ Mark Complete
+  </button>
+
+  <view class="completed-badge" wx:if="{{completed}}">
+    🎉 Completed!
+  </view>
+
+</view>

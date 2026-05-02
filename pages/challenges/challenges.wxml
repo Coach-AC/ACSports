@@ -1,0 +1,16 @@
+<view class="challenges-list">
+  <view wx:for="{{challenges}}" 
+        wx:key="id" 
+        class="challenge-item"
+        data-challenge="{{item}}"
+        bindtap="takeChallenge">
+
+    <view class="challenge-header">
+      <text class="icon">{{item.icon}}</text>
+      <text class="title">{{item.title}}</text>
+    </view>
+
+    <text class="desc">{{item.description}}</text>
+
+  </view>
+</view>

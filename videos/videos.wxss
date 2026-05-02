@@ -1,0 +1,10 @@
+/**videos.wxss**/
+.videos-list {
+  padding: 20rpx;
+}
+
+.video-item {
+  padding: 20rpx;
+  border: 1rpx solid #ccc;
+  margin-bottom: 10rpx;
+}

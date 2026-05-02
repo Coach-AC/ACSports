@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/videos/videos",
+    "pages/challenges/challenges",
+    "pages/rankings/rankings",
+    "pages/profile/profile",
+    "pages/fitness-plan/fitness-plan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Basketball Drills",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/videos/videos",
+        "text": "Videos"
+      },
+      {
+        "pagePath": "pages/challenges/challenges",
+        "text": "Challenges"
+      },
+      {
+        "pagePath": "pages/rankings/rankings",
+        "text": "Rankings"
+      },
+      {
+        "pagePath": "pages/fitness-plan/fitness-plan",
+        "text": "Plan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+.detail-container {
+  padding: 30rpx;
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.icon {
+  font-size: 50rpx;
+  margin-right: 15rpx;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+  color: #555;
+}
+
+.detail-video {
+  width: 100%;
+  border-radius: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.complete-btn {
+  background: #e66a2c;
+  color: white;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  font-size: 26rpx;
+}
+
+.completed-badge {
+  text-align: center;
+  font-size: 28rpx;
+  color: #2ecc71;
+  font-weight: bold;
+}

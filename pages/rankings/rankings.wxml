@@ -1,0 +1,6 @@
+<!--rankings.wxml-->
+<view class="rankings-list">
+  <view wx:for="{{rankings}}" wx:key="rank" class="ranking-item">
+    <text>{{item.rank}}. {{item.name}} - {{item.score}} points</text>
+  </view>
+</view>

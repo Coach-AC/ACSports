@@ -1,0 +1,139 @@
+.container {
+  background: #f2f3f7;
+  min-height: 100vh;
+  padding-bottom: 40rpx;
+}
+
+/* HERO */
+.hero {
+  background: #25345a;
+  padding: 40rpx 30rpx;
+  color: white;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 36rpx;
+  font-weight: 900;
+}
+
+.highlight {
+  color: #f68b3c;
+}
+
+.hero-sub {
+  margin-top: 12rpx;
+  font-size: 22rpx;
+  opacity: 0.8;
+}
+
+/* GOALS */
+.goals-box {
+  background: #ffffff;
+  margin: 30rpx;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+
+.goal {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  font-size: 22rpx;
+}
+
+.goal:last-child {
+  border-bottom: none;
+}
+
+/* PHASE */
+.phase-row {
+  display: flex;
+  gap: 20rpx;
+  margin: 30rpx;
+}
+
+.phase-btn {
+  flex: 1;
+  background: #ddd;
+  padding: 20rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+}
+
+.phase-btn.active {
+  background: #e66a2c;
+  color: white;
+}
+
+/* WEEK BUTTONS */
+.week-list {
+  margin: 0 30rpx 30rpx 30rpx;
+}
+
+.week-btn {
+  background: #ddd;
+  padding: 25rpx;
+  border-radius: 20rpx;
+  margin-bottom: 15rpx;
+  text-align: center;
+  font-size: 26rpx;
+  font-weight: bold;
+}
+
+.week-btn.active {
+  background: #1f2b4a;
+  color: white;
+}
+
+/* CONTENT CARD */
+.content-card {
+  background: white;
+  margin: 0 30rpx;
+  border-radius: 20rpx;
+  padding: 25rpx;
+}
+
+.week-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.week-rationale {
+  font-size: 22rpx;
+  margin-bottom: 20rpx;
+  color: #555;
+}
+
+.segment {
+  margin-top: 20rpx;
+}
+
+.segment-header {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+
+.exercise {
+  background: #f5f6fa;
+  padding: 15rpx;
+  border-radius: 15rpx;
+  margin-bottom: 10rpx;
+}
+
+.ex-name {
+  font-weight: bold;
+}
+
+.ex-detail {
+  font-size: 20rpx;
+  color: #555;
+}
+
+.ex-sets {
+  font-size: 20rpx;
+  color: #e66a2c;
+}

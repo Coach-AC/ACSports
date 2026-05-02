@@ -1,0 +1,43 @@
+<view class="container">
+
+  <!-- Logo Section -->
+  <image class="logo" src="/images/logo.png" mode="aspectFit"></image>
+
+  <!-- Company Name -->
+  <view class="company-name">
+    Presented by <text class="brand">AC Sports</text>
+  </view>
+
+  <!-- Introduction -->
+  <view class="intro">
+    AC Sports is dedicated to helping athletes improve their basketball skills
+    through structured drills, exciting challenges, and professional fitness plans.
+    This mini program is built to train, compete, and grow together.
+  </view>
+
+  <!-- Navigation Icons -->
+  <view class="menu">
+
+    <view class="menu-item" bindtap="goToVideos">
+      <text class="icon">🏀</text>
+      <text>Training Videos</text>
+    </view>
+
+    <view class="menu-item" bindtap="goToChallenges">
+      <text class="icon">🔥</text>
+      <text>Challenges</text>
+    </view>
+
+    <view class="menu-item" bindtap="goToRankings">
+      <text class="icon">🏆</text>
+      <text>Rankings</text>
+    </view>
+
+    <view class="menu-item" bindtap="goToFitnessPlan">
+      <text class="icon">💪</text>
+      <text>Fitness Plan</text>
+    </view>
+
+  </view>
+
+</view>

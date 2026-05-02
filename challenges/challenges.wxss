@@ -1,0 +1,40 @@
+.challenges-list {
+  padding: 20rpx;
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+.challenge-item {
+  background: #ffffff;
+  padding: 25rpx;
+  border-radius: 20rpx;
+  margin-bottom: 25rpx;
+  box-shadow: 0 6rpx 20rpx rgba(0,0,0,0.05);
+}
+
+.challenge-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15rpx;
+}
+
+.icon {
+  font-size: 40rpx;
+  margin-right: 15rpx;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 28rpx;
+}
+
+.desc {
+  color: #666;
+  font-size: 22rpx;
+  margin-bottom: 15rpx;
+}
+
+.challenge-video {
+  width: 100%;
+  border-radius: 15rpx;
+}

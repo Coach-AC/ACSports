@@ -1,0 +1,6 @@
+<!--videos.wxml-->
+<view class="videos-list">
+  <view wx:for="{{videos}}" wx:key="id" class="video-item" data-url="{{item.url}}" bindtap="playVideo">
+    <text>{{item.title}}</text>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+/**rankings.wxss**/
+.rankings-list {
+  padding: 20rpx;
+}
+
+.ranking-item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}

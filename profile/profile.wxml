@@ -1,0 +1,4 @@
+<!--profile.wxml-->
+<view class="profile">
+  <text>Profile Page</text>
+</view>
